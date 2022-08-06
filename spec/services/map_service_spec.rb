@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe MapService do
   describe 'external endpoint' do
-    it 'can lat and long for a location' do
+    it 'can lat and long for a location', :vcr do
       location = ("Denver,CO")
       json = MapService.get_location(location)
 
@@ -14,6 +14,8 @@ RSpec.describe MapService do
       expect(json[:results][0][:locations][0]).to have_key(:latLng)
       expect(json[:results][0][:locations][0][:latLng]).to have_key(:lat)
       expect(json[:results][0][:locations][0][:latLng]).to have_key(:lng)
+      expect(json[:results][0][:locations][0][:latLng][:lat]).to eq(39.738453)
+      expect(json[:results][0][:locations][0][:latLng][:lng]).to eq(-104.984853)
     end
   end
 end
