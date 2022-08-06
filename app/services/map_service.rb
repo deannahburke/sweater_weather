@@ -7,6 +7,5 @@ class MapService < BaseService
   def self.get_location(location)
     response = conn.get("address?key=#{ENV['mapquest_api_key']}&location=#{location}")
     data = get_json(response)
-    
   end
 end
