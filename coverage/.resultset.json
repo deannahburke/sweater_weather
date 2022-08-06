@@ -221,6 +221,34 @@
           null
         ]
       },
+      "/Users/deannahburke/turing/3module/projects/sweater_weather/spec/poros/location_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/deannahburke/turing/3module/projects/sweater_weather/app/poros/location.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/deannahburke/turing/3module/projects/sweater_weather/spec/services/forecast_service_spec.rb": {
         "lines": [
           1,
@@ -357,18 +385,8 @@
           null,
           null
         ]
-      },
-      "/Users/deannahburke/turing/3module/projects/sweater_weather/app/poros/location.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1659818384
+    "timestamp": 1659818808
   }
 }
