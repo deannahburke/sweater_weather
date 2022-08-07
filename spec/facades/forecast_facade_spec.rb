@@ -9,6 +9,8 @@ RSpec.describe ForecastFacade do
     expect(forecast).to be_a(Hash)
     expect(forecast[:current]).to be_a(CurrentForecast)
     expect(forecast[:daily]).to be_all(DailyForecast)
+    expect(forecast[:daily].count).to eq(5)
     expect(forecast[:hourly]).to be_all(HourlyForecast)
+    expect(forecast[:hourly].count).to eq(8)
   end
 end
