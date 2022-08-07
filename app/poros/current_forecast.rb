@@ -1,4 +1,4 @@
-class Forecast
+class CurrentForecast
   attr_reader :datetime,
               :sunrise,
               :sunset,
@@ -21,5 +21,6 @@ class Forecast
     @visibility = data[:current][:visibility]
     @conditions = data[:current][:weather][0][:description]
     @icon = data[:current][:weather][0][:icon]
+    #require "pry";binding.pry
   end
 end

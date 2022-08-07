@@ -4,8 +4,11 @@ RSpec.describe ForecastFacade do
   it 'creates a forecast poro from get weather service call' do
     lat = (39.7392)
     lon = (-104.9903)
-    result = ForecastFacade.create_forecast(lat, lon)
+    forecast = ForecastFacade.create_forecast(lat, lon)
 
-    expect(result).to be_an_instance_of(Forecast)
+    expect(forecast).to be_a(Hash)
+    expect(forecast[:current]).to be_a(CurrentForecast)
+    expect(forecast[:daily]).to be_all(DailyForecast)
+    expect(forecast[:hourly]).to be_all(HourlyForecast)
   end
 end
