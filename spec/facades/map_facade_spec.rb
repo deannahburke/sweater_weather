@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe MapFacade do
-  it 'creates lat and lon poros from get location service call' do
+  it 'creates location poro from get location service call' do
     location = ("Denver,CO")
     result = MapFacade.create_location(location)
 
