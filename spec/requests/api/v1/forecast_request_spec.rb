@@ -82,11 +82,38 @@ describe 'Forecast API' do
   end
 
   context 'sad path' do
-    xit 'sends specified weather data for a location' do
+    it 'sends only specified weather data for a location' do
       get '/api/v1/forecast?location=denver,co'
 
       forecast = JSON.parse(response.body, symbolize_names: true)
 
+      expect(forecast).to_not have_key(:lat)
+      expect(forecast).to_not have_key(:lon)
+      expect(forecast).to_not have_key(:timezone)
+      expect(forecast).to_not have_key(:daily)
+      expect(forecast).to_not have_key(:hourly)
+      expect((forecast[:data][:attributes][:daily_weather]).length).to_not eq(7)
+      expect((forecast[:data][:attributes][:hourly_weather]).length).to_not eq(24)
+
+      expect(forecast[:data][:attributes]).to_not have_key(:dt)
+      expect(forecast[:data][:attributes]).to_not have_key(:pressure)
+      expect(forecast[:data][:attributes]).to_not have_key(:dew_point)
+      expect(forecast[:data][:attributes]).to_not have_key(:clouds)
+      expect(forecast[:data][:attributes]).to_not have_key(:weather)
+
+      daily_weather = forecast[:data][:attributes][:daily_weather]
+
+      expect(daily_weather[0]).to_not have_key(:dt)
+      expect(daily_weather[0]).to_not have_key(:moonrise)
+      expect(daily_weather[0]).to_not have_key(:moonset)
+      expect(daily_weather[0]).to_not have_key(:temp)
+
+      hourly_weather = forecast[:data][:attributes][:hourly_weather]
+
+      expect(hourly_weather[0]).to_not have_key(:dt)
+      expect(hourly_weather[0]).to_not have_key(:feels_like)
+      expect(hourly_weather[0]).to_not have_key(:pressure)
+      expect(hourly_weather[0]).to_not have_key(:humidity)
     end
   end
 end
