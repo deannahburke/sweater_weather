@@ -8,6 +8,6 @@ class ForecastFacade
 
     hourly = json[:hourly][0..7].map { |data| HourlyForecast.new(data) }
 
-    {current: current, daily: daily, hourly: hourly}
+    [current, daily, hourly]
   end
 end
