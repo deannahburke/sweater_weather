@@ -9,6 +9,5 @@ class YelpService < BaseService
       faraday.headers["Authorization"] = ENV['yelp_api_key']
     end
     data = get_json(response)
-    require "pry";binding.pry
   end
 end
