@@ -1,6 +1,5 @@
 class RestaurantSerializer
   def self.format_restaurant(restaurant, location, forecast)
-    require "pry";binding.pry
     {
       data: {
         id: nil,
@@ -12,9 +11,8 @@ class RestaurantSerializer
             "temperature": forecast[0].temperature
           },
           "restaurant": {
-            "name":
-            "address":
-            }
+            "name": restaurant.name,
+            "address": restaurant.address
           }
         }
       }

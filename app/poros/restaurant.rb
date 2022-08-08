@@ -3,7 +3,7 @@ class Restaurant
               :address
 
   def initialize(data)
-    @name = data[:businesses].map { |business| business[:name] }
+    @name = data[:businesses][0][:name]
     @address = data[:businesses][0][:location][:display_address].join
   end
 end

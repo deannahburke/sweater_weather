@@ -6,6 +6,6 @@ RSpec.describe RestaurantFacade do
     term = ("bbq")
 
     restaurant = RestaurantFacade.create_restaurant(location, term)
-    expect(restaurant).to be_a(Array)
+    expect(restaurant).to be_a(Restaurant)
   end
 end
