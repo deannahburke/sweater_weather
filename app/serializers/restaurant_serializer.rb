@@ -1,5 +1,6 @@
 class RestaurantSerializer
   def self.format_restaurant(restaurant, location, forecast)
+    require "pry";binding.pry
     {
       data: {
         id: nil,
