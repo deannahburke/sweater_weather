@@ -1,10 +1,11 @@
 class Api::V1::UsersController < ApplicationController
   def create
-    user = User.create!(user_params)
+    user = User.new(user_params)
       if user.save
+        user.update(api_key: SecureRandom.hex)
         render json: UserSerializer.new(user), status: 201
       else
-        render status: 404
+        render json: { error: user.errors.full_messages.to_sentence }, status: 400
       end
   end
 
