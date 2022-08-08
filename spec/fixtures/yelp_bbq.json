@@ -1,0 +1,915 @@
+{
+    "businesses": [
+        {
+            "id": "pkVmOkl5M2QIpWbQ58hvaA",
+            "alias": "smokin-yards-bbq-denver-3",
+            "name": "Smokin' Yards BBQ",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kQr-F_Tjl-pDlfp7HWK12Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/smokin-yards-bbq-denver-3?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 305,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "chicken_wings",
+                    "title": "Chicken Wings"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.71713751579508,
+                "longitude": -104.9987867705563
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "900 W 1st Ave",
+                "address2": "Ste 100",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80223",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "900 W 1st Ave",
+                    "Ste 100",
+                    "Denver, CO 80223"
+                ]
+            },
+            "phone": "+13032843349",
+            "display_phone": "(303) 284-3349",
+            "distance": 3184.0046911906084
+        },
+        {
+            "id": "0D9R08xZAa7gWeHlgOx_gA",
+            "alias": "roaming-buffalo-bbq-denver",
+            "name": "Roaming Buffalo BBQ",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Ct21sAbfJIrSHyT-hsqGGA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/roaming-buffalo-bbq-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 370,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.67329,
+                "longitude": -104.97368
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2387 S Downing St",
+                "address2": "",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80210",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "2387 S Downing St",
+                    "Denver, CO 80210"
+                ]
+            },
+            "phone": "+13037222226",
+            "display_phone": "(303) 722-2226",
+            "distance": 6923.713092531483
+        },
+        {
+            "id": "VzermHw6lXFWnpTklIItbQ",
+            "alias": "post-oak-barbecue-denver",
+            "name": "Post Oak Barbecue",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/7Qa1fXuWA84wrJNHZBnoNQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/post-oak-barbecue-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 318,
+            "categories": [
+                {
+                    "alias": "smokehouse",
+                    "title": "Smokehouse"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.771811,
+                "longitude": -105.043884
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4000 Tennyson St",
+                "address2": null,
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80212",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "4000 Tennyson St",
+                    "Denver, CO 80212"
+                ]
+            },
+            "phone": "+13034581555",
+            "display_phone": "(303) 458-1555",
+            "distance": 7464.57649407705
+        },
+        {
+            "id": "nDBGfzXTVQbagu7y1ELTog",
+            "alias": "pit-fiend-barbecue-denver",
+            "name": "Pit Fiend Barbecue",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/040V8HX3hHXsWjlAD7Qp8A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pit-fiend-barbecue-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 39.76046022711843,
+                "longitude": -104.98224992305039
+            },
+            "transactions": [],
+            "location": {
+                "address1": "2826 Larimer St",
+                "address2": "",
+                "address3": null,
+                "city": "Denver",
+                "zip_code": "80205",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "2826 Larimer St",
+                    "Denver, CO 80205"
+                ]
+            },
+            "phone": "+13039557810",
+            "display_phone": "(303) 955-7810",
+            "distance": 2956.601629469854
+        },
+        {
+            "id": "qbYsN4_1OschLj0Z0Z3HLw",
+            "alias": "ragin-hog-bbq-denver",
+            "name": "Ragin' Hog BBQ",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/QbcEeOZgMGdKES4x_Zy0iA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ragin-hog-bbq-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 259,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "southern",
+                    "title": "Southern"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.77611,
+                "longitude": -105.03495
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4361 Lowell Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80211",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "4361 Lowell Blvd",
+                    "Denver, CO 80211"
+                ]
+            },
+            "phone": "+13038596003",
+            "display_phone": "(303) 859-6003",
+            "distance": 7138.2907578654585
+        },
+        {
+            "id": "2XOGbF8SZn8B7ba1weH2UQ",
+            "alias": "ajs-pit-bar-b-q-denver",
+            "name": "AJ's Pit Bar-B-Q",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-sz05T_vW6Lz3saEJgk6Dg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ajs-pit-bar-b-q-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 225,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.67699,
+                "longitude": -104.99192
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2180 S Delaware St",
+                "address2": null,
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80223",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "2180 S Delaware St",
+                    "Denver, CO 80223"
+                ]
+            },
+            "phone": "+17208155571",
+            "display_phone": "(720) 815-5571",
+            "distance": 6771.57013393744
+        },
+        {
+            "id": "WCzA9u1d4W1FzsQKrAu74g",
+            "alias": "yazoo-bbq-company-denver",
+            "name": "Yazoo BBQ Company",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/23IQ89Rmj8ladwFNzqCzeA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/yazoo-bbq-company-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 463,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 39.752127,
+                "longitude": -104.987107
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2150 N Broadway",
+                "address2": "",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80205",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "2150 N Broadway",
+                    "Denver, CO 80205"
+                ]
+            },
+            "phone": "+13032963334",
+            "display_phone": "(303) 296-3334",
+            "distance": 2331.999728807578
+        },
+        {
+            "id": "ZbpmuK-q2g3cbDo6kzxMcA",
+            "alias": "smokin-daves-bbq-and-brew-denver",
+            "name": "Smokin' Dave's BBQ & Brew",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/lXegCNVG4sbiM9nuvhD5RA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/smokin-daves-bbq-and-brew-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 275,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.831762,
+                "longitude": -105.005221
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1551 Cortez St",
+                "address2": "",
+                "address3": null,
+                "city": "Denver",
+                "zip_code": "80221",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "1551 Cortez St",
+                    "Denver, CO 80221"
+                ]
+            },
+            "phone": "+13034307427",
+            "display_phone": "(303) 430-7427",
+            "distance": 11110.646010356295
+        },
+        {
+            "id": "BaVom-XqK5ArFgPOqMVxZA",
+            "alias": "g-que-bbq-lakewood-lakewood",
+            "name": "G-Que BBQ - Lakewood",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_86_ANpMCqmUt8ZJjID3ZQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/g-que-bbq-lakewood-lakewood?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 35,
+            "categories": [
+                {
+                    "alias": "southern",
+                    "title": "Southern"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 39.70939847670088,
+                "longitude": -105.0749875022396
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "7085 W Alaska Dr",
+                "address2": "",
+                "address3": null,
+                "city": "Lakewood",
+                "zip_code": "80226",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "7085 W Alaska Dr",
+                    "Lakewood, CO 80226"
+                ]
+            },
+            "phone": "+17205243660",
+            "display_phone": "(720) 524-3660",
+            "distance": 9417.379723877235
+        },
+        {
+            "id": "eumx6jsXtOBKBlg0hq7OsQ",
+            "alias": "brads-pit-bbq-littleton-2",
+            "name": "Brad's Pit BBQ",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/klqBHR--ctU76SUbdsTq5A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/brads-pit-bbq-littleton-2?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 122,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "foodtrucks",
+                    "title": "Food Trucks"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.608778,
+                "longitude": -105.0372458
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5950 S Platte Canyon Rd",
+                "address2": "Ste D18",
+                "address3": "",
+                "city": "Littleton",
+                "zip_code": "80123",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "5950 S Platte Canyon Rd",
+                    "Ste D18",
+                    "Littleton, CO 80123"
+                ]
+            },
+            "phone": "+17205101765",
+            "display_phone": "(720) 510-1765",
+            "distance": 15215.478951179319
+        },
+        {
+            "id": "i_MfqPbC5N6lnJuVam898w",
+            "alias": "mississippi-boy-catfish-and-ribs-denver",
+            "name": "Mississippi Boy Catfish & Ribs",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/di6mLtvj4HSsoKtAyZIBaw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mississippi-boy-catfish-and-ribs-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 32,
+            "categories": [
+                {
+                    "alias": "southern",
+                    "title": "Southern"
+                },
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.763661755267336,
+                "longitude": -104.9230904
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5544 E 33rd Ave",
+                "address2": "",
+                "address3": null,
+                "city": "Denver",
+                "zip_code": "80207",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "5544 E 33rd Ave",
+                    "Denver, CO 80207"
+                ]
+            },
+            "phone": "+16018809828",
+            "display_phone": "(601) 880-9828",
+            "distance": 5103.030483977008
+        },
+        {
+            "id": "oIxuCL9orcl7QFZZUv_HwQ",
+            "alias": "gque-championship-bbq-westminster-westminster-2",
+            "name": "GQue Championship BBQ - Westminster",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/uCec0ndjx6xOj-0OGQ02fw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gque-championship-bbq-westminster-westminster-2?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 824,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.911929,
+                "longitude": -105.051415
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5160 W 120th Ave",
+                "address2": "Unit K",
+                "address3": "",
+                "city": "Westminster",
+                "zip_code": "80020",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "5160 W 120th Ave",
+                    "Unit K",
+                    "Westminster, CO 80020"
+                ]
+            },
+            "phone": "+13033799205",
+            "display_phone": "(303) 379-9205",
+            "distance": 20804.095109191247
+        },
+        {
+            "id": "2NfKspVcjMhMyR3O7B0zBg",
+            "alias": "saucy-s-southern-bbq-and-cuisine-denver",
+            "name": "Saucy’s Southern BBQ & Cuisine",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/3VDRep8gxSW9QxSz8kODBA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/saucy-s-southern-bbq-and-cuisine-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.75258449498141,
+                "longitude": -104.99166700216732
+            },
+            "transactions": [],
+            "location": {
+                "address1": "1201 20th St",
+                "address2": "",
+                "address3": null,
+                "city": "Denver",
+                "zip_code": "80202",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "1201 20th St",
+                    "Denver, CO 80202"
+                ]
+            },
+            "phone": "+16019403809",
+            "display_phone": "(601) 940-3809",
+            "distance": 2636.8790594568673
+        },
+        {
+            "id": "5M5E9geruC4xY6nlhetlgg",
+            "alias": "smok-barbecue-denver",
+            "name": "Smok Barbecue",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-KqoTVK7N9ZfkQZDjO4KyA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/smok-barbecue-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 199,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 39.768384,
+                "longitude": -104.980039
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3330 N Brighton Blvd",
+                "address2": "Unit 202",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80216",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "3330 N Brighton Blvd",
+                    "Unit 202",
+                    "Denver, CO 80216"
+                ]
+            },
+            "phone": "+17204522487",
+            "display_phone": "(720) 452-2487",
+            "distance": 3748.5344962367053
+        },
+        {
+            "id": "oBxslPCjJi3fFvhyz5-niw",
+            "alias": "plates-by-the-pound-bbq-aurora",
+            "name": "Plates by the Pound BBQ",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/t3yfc8zVIGCo17LC59vZrQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/plates-by-the-pound-bbq-aurora?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 14,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "catering",
+                    "title": "Caterers"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 39.74762,
+                "longitude": -104.85252
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "11601 E Montview Blvd",
+                "address2": "",
+                "address3": null,
+                "city": "Aurora",
+                "zip_code": "80010",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "11601 E Montview Blvd",
+                    "Aurora, CO 80010"
+                ]
+            },
+            "phone": "+17206970082",
+            "display_phone": "(720) 697-0082",
+            "distance": 10140.830170289393
+        },
+        {
+            "id": "svJWwW0ilssyqk_UML0mUg",
+            "alias": "work-and-class-denver",
+            "name": "Work & Class",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/CsEm4HlzDoXK_n3ZWcxv8g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/work-and-class-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 1600,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.75761,
+                "longitude": -104.98604
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2500 Larimer St",
+                "address2": "Ste 101",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80205",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "2500 Larimer St",
+                    "Ste 101",
+                    "Denver, CO 80205"
+                ]
+            },
+            "phone": "+13032920700",
+            "display_phone": "(303) 292-0700",
+            "distance": 2810.0960698608437
+        },
+        {
+            "id": "HL6UdgSiACDIxmEMg_avJA",
+            "alias": "bbq-chicken-denver-capitol-hill-denver-3",
+            "name": "Bbq Chicken - Denver Capitol Hill",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/YilWxBkumIe8NMYq2zcjSg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bbq-chicken-denver-capitol-hill-denver-3?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "korean",
+                    "title": "Korean"
+                },
+                {
+                    "alias": "chickenshop",
+                    "title": "Chicken Shop"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 39.73769,
+                "longitude": -104.98338
+            },
+            "transactions": [],
+            "location": {
+                "address1": "1360 Grant St",
+                "address2": null,
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80203",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "1360 Grant St",
+                    "Denver, CO 80203"
+                ]
+            },
+            "phone": "+13039555357",
+            "display_phone": "(303) 955-5357",
+            "distance": 1144.7210892927556
+        },
+        {
+            "id": "zgvqw-I07hQYhIQwSSCiQg",
+            "alias": "brothers-bbq-denver-5",
+            "name": "Brothers BBQ",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/RQMpMHPUCG9-5XQ7CjNqqA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/brothers-bbq-denver-5?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 179,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "southern",
+                    "title": "Southern"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 39.7253,
+                "longitude": -104.97843
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "568 N Washington St",
+                "address2": "",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80203",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "568 N Washington St",
+                    "Denver, CO 80203"
+                ]
+            },
+            "phone": "+17205704227",
+            "display_phone": "(720) 570-4227",
+            "distance": 1328.2386987278412
+        },
+        {
+            "id": "ENDOWXUYlg_EBwvflvlXLQ",
+            "alias": "kealohas-bbq-denver",
+            "name": "Kealoha's BBQ",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/gZ-slQxW6_0hn7oA8M7Lnw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kealohas-bbq-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 38,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "hawaiian",
+                    "title": "Hawaiian"
+                },
+                {
+                    "alias": "foodstands",
+                    "title": "Food Stands"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 39.74341117,
+                "longitude": -104.990989
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "location": {
+                "address1": "500 16th Street Mall",
+                "address2": "Space 1",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80202",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "500 16th Street Mall",
+                    "Space 1",
+                    "Denver, CO 80202"
+                ]
+            },
+            "phone": "+18089905850",
+            "display_phone": "(808) 990-5850",
+            "distance": 2013.9213500303706
+        },
+        {
+            "id": "E5j0BAyhmAnzHjgZwEdsZQ",
+            "alias": "franks-bar-b-que-catering-service-denver",
+            "name": "Frank's Bar-B-Que Catering Service",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/WGQRVDgFxiUBzQSewrvREQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/franks-bar-b-que-catering-service-denver?adjust_creative=BQnjvPS71528ZNm3N1TlWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=BQnjvPS71528ZNm3N1TlWw",
+            "review_count": 50,
+            "categories": [
+                {
+                    "alias": "catering",
+                    "title": "Caterers"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 39.74013,
+                "longitude": -105.04783
+            },
+            "transactions": [],
+            "location": {
+                "address1": "4700 W Colfax Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Denver",
+                "zip_code": "80204",
+                "country": "US",
+                "state": "CO",
+                "display_address": [
+                    "4700 W Colfax Ave",
+                    "Denver, CO 80204"
+                ]
+            },
+            "phone": "+13038939181",
+            "display_phone": "(303) 893-9181",
+            "distance": 6647.236261308838
+        }
+    ],
+    "total": 2800,
+    "region": {
+        "center": {
+            "longitude": -104.97024536132812,
+            "latitude": 39.73552421220229
+        }
+    }
+}
