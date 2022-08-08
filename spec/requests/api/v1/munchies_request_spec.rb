@@ -26,7 +26,8 @@ describe 'Munchies API' do
       expect(destination[:data][:attributes][:destination_city][:forecast]).to have_key(:summary)
       expect(destination[:data][:attributes][:destination_city][:forecast]).to have_key(:temperature)
 
-      expect(expect(destination[:data][:attributes][:restaurant]).to have_key(:name)
-      expect(expect(destination[:data][:attributes][:restaurant]).to have_key(:address)
+      expect(destination[:data][:attributes][:restaurant]).to have_key(:name)
+      expect(destination[:data][:attributes][:restaurant]).to have_key(:address)
     end
+  end
 end

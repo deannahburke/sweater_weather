@@ -4,6 +4,6 @@ class Api::V1::MunchiesController < ApplicationController
     term = params[:food]
     forecast = SummaryForecastFacade.destination_forecast(location)
     restaurant = RestaurantFacade.create_restaurant(location, term)
-    render json: RestaurantSerializer.format_restaurant(restaurant)
+    render json: RestaurantSerializer.format_restaurant(restaurant, location, forecast)
   end
 end
