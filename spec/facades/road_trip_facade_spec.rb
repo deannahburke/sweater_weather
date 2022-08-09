@@ -6,6 +6,6 @@ RSpec.describe RoadTripFacade, :vcr do
     destination = ("Pueblo,CO")
     result = RoadTripFacade.create_roadtrip(origin, destination)
 
-    expect(result).to be_an_instance_of(Roadtrip)
+    expect(result).to be_an_instance_of(RoadTrip)
   end
 end

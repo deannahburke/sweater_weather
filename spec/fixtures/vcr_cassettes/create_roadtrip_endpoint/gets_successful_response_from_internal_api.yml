@@ -19,17 +19,17 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Tue, 09 Aug 2022 17:38:37 GMT
+      - Tue, 09 Aug 2022 20:42:28 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
       - '272'
       Set-Cookie:
-      - JSESSIONID=1917F8E94B8FD01F9B818D11724A3469; Path=/directions; HttpOnly
+      - JSESSIONID=8F4AB9E44F8BEBC6B5C266DA684DAB95; Path=/directions; HttpOnly
       Expires:
       - Mon, 20 Dec 1998 01:00:00 GMT
       Last-Modified:
-      - Tue, 09 Aug 2022 17:38:37 GMT
+      - Tue, 09 Aug 2022 20:42:28 GMT
       Cache-Control:
       - no-cache, must-revalidate
       Pragma:
@@ -46,5 +46,58 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MjExLCJtZXNzYWdlIjoiIn19LCJpbmZvIjp7InN0YXR1c2NvZGUiOjYxMSwiY29weXJpZ2h0Ijp7ImltYWdlQWx0VGV4dCI6IsKpIDIwMjIgTWFwUXVlc3QsIEluYy4iLCJpbWFnZVVybCI6Imh0dHA6Ly9hcGkubXFjZG4uY29tL3Jlcy9tcWxvZ28uZ2lmIiwidGV4dCI6IsKpIDIwMjIgTWFwUXVlc3QsIEluYy4ifSwibWVzc2FnZXMiOlsiQXQgbGVhc3QgdHdvIGxvY2F0aW9ucyBtdXN0IGJlIHByb3ZpZGVkLiJdfX0=
-  recorded_at: Tue, 09 Aug 2022 17:38:37 GMT
+  recorded_at: Tue, 09 Aug 2022 20:42:28 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=<api_key>&location=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Tue, 09 Aug 2022 20:42:28 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '382'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '0'
+      Last-Modified:
+      - Tue, 09 Aug 2022 20:42:28 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=1C390F810270DE599E00154EDC5A1844; Path=/; HttpOnly
+      Status:
+      - success
+      Transactionweight:
+      - '0.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":400,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":["Illegal argument from request: Insufficient
+        info for location"]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":""},"locations":[]}]}'
+  recorded_at: Tue, 09 Aug 2022 20:42:28 GMT
 recorded_with: VCR 6.1.0
