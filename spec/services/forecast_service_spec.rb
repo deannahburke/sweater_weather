@@ -42,7 +42,7 @@ RSpec.describe ForecastService do
 
       expect(json).to_not have_key(:minutely)
       expect(json).to_not have_key(:alerts)
-      end
+    end
 
     it 'can retrieve daily forecast data for a given location' do
       lat = 39.7392
@@ -60,9 +60,8 @@ RSpec.describe ForecastService do
       expect(json[:daily][0][:temp]).to have_key(:max)
       expect(json[:daily][0][:weather][0]).to have_key(:description)
       expect(json[:daily][0][:weather][0]).to have_key(:icon)
-
       expect(json).to_not have_key(:minutely)
       expect(json).to_not have_key(:alerts)
-      end
     end
   end
+end
