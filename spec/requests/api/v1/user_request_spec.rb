@@ -43,7 +43,9 @@ RSpec.describe 'create user endpoint' do
       expect(user[:data][:type]).to eq("users")
       expect(user[:data]).to have_key(:attributes)
       expect(user[:data][:attributes]).to have_key(:email)
+      expect(user[:data][:attributes][:email]).to be_a(String)
       expect(user[:data][:attributes]).to have_key(:api_key)
+      expect(user[:data][:attributes][:api_key]).to be_a(String)
       expect(user[:data][:attributes]).to_not have_key(:password)
     end
   end
@@ -64,6 +66,7 @@ RSpec.describe 'create user endpoint' do
 
       expect(response).to_not be_successful
       expect(response).to have_http_status(400)
+      expect(body).to have_key(:error)
       expect(body[:error]).to eq("Email can't be blank")
     end
 
@@ -82,6 +85,7 @@ RSpec.describe 'create user endpoint' do
 
       expect(response).to_not be_successful
       expect(response).to have_http_status(400)
+      expect(body).to have_key(:error)
       expect(body[:error]).to eq("Password can't be blank")
     end
 
@@ -100,7 +104,33 @@ RSpec.describe 'create user endpoint' do
 
       expect(response).to_not be_successful
       expect(response).to have_http_status(400)
+      expect(body).to have_key(:error)
       expect(body[:error]).to eq("Password confirmation doesn't match Password")
+    end
+
+    it 'will not create user with email already registered' do
+      existing_user = User.create!({
+          email: "parker@magical.com",
+          password: "sparkle5",
+          password_confirmation: "sparkle5"
+        })
+
+      user_params =
+      {
+        email: "parker@magical.com",
+        password: "54321",
+        password_confirmation: "54321"
+      }
+      headers = {"CONTENT_TYPE" => "application/json"}
+
+      post '/api/v1/users', headers: headers, params: JSON.generate(user_params)
+
+      body = JSON.parse(response.body, symbolize_names: true)
+
+      expect(response).to_not be_successful
+      expect(response).to have_http_status(400)
+      expect(body).to have_key(:error)
+      expect(body[:error]).to eq("Email has already been taken")
     end
   end
 end
