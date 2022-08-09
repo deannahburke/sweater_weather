@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe MapFacade do
+RSpec.describe MapFacade, :vcr do
   it 'creates location poro from get location service call' do
     location = ("Denver,CO")
     result = MapFacade.create_location(location)

@@ -58,13 +58,6 @@ GEM
     diff-lcs (1.5.0)
     docile (1.4.0)
     erubi (1.11.0)
-    factory_bot (6.2.1)
-      activesupport (>= 5.0.0)
-    factory_bot_rails (6.2.0)
-      factory_bot (~> 6.2.0)
-      railties (>= 5.0.0)
-    faker (2.22.0)
-      i18n (>= 1.8.11, < 2)
     faraday (2.4.0)
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
@@ -177,6 +170,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.10)
       thread_safe (~> 0.1)
+    vcr (6.1.0)
     webmock (3.16.0)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
@@ -192,8 +186,6 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
   byebug
-  factory_bot_rails
-  faker
   faraday
   figaro
   listen (>= 3.0.5, < 3.2)
@@ -207,6 +199,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
+  vcr
   webmock
 
 RUBY VERSION

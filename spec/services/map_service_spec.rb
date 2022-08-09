@@ -1,11 +1,13 @@
 require 'rails_helper'
 
-RSpec.describe MapService do
+RSpec.describe MapService, :vcr do
   describe 'external endpoint' do
     it 'can lat and long for a location' do
 
-      mock_data = File.read('spec/fixtures/denver_mapquest.json')
-      json = JSON.parse(mock_data, symbolize_names: true)
+      # mock_data = File.read('spec/fixtures/denver_mapquest.json')
+      # json = JSON.parse(mock_data, symbolize_names: true)
+
+      json = MapService.get_location("denver,co")
 
       expect(json).to be_a(Hash)
       expect(json).to have_key(:results)

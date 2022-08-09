@@ -1,11 +1,14 @@
 require 'rails_helper'
 
-RSpec.describe ForecastService do
+RSpec.describe ForecastService, :vcr do 
   describe 'external endpoint' do
     it 'can retrieve current forecast data for a given location' do
-      
-      mock_data = File.read('spec/fixtures/forecast.json')
-      json = JSON.parse(mock_data, symbolize_names: true)
+
+      lat = (39.738453)
+      lon = (-104.984853)
+      json = ForecastService.get_weather(lat, lon)
+      # mock_data = File.read('spec/fixtures/forecast.json')
+      # json = JSON.parse(mock_data, symbolize_names: true)
 
       expect(json).to be_a(Hash)
       expect(json).to have_key(:current)
@@ -42,7 +45,7 @@ RSpec.describe ForecastService do
 
       expect(json).to_not have_key(:minutely)
       expect(json).to_not have_key(:alerts)
-      end
+    end
 
     it 'can retrieve daily forecast data for a given location' do
       lat = 39.7392
@@ -60,9 +63,8 @@ RSpec.describe ForecastService do
       expect(json[:daily][0][:temp]).to have_key(:max)
       expect(json[:daily][0][:weather][0]).to have_key(:description)
       expect(json[:daily][0][:weather][0]).to have_key(:icon)
-
       expect(json).to_not have_key(:minutely)
       expect(json).to_not have_key(:alerts)
-      end
     end
   end
+end
