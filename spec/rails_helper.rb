@@ -71,12 +71,13 @@ Shoulda::Matchers.configure do |config|
     with.library :rails
   end
 
-  # VCR.configure do |config|
-  #   vcr_mode = :once
-  #   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
-  #   config.hook_into :webmock
-  #   config.filter_sensitive_data('<api_key>') { ENV['mapquest_api_key'] }
-  #   config.filter_sensitive_data('<api_key>') { ENV['openweather_api_key'] }
-  #   config.configure_rspec_metadata!
-  # end
+  VCR.configure do |config|
+    vcr_mode = :once
+    config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+    config.hook_into :webmock
+    config.filter_sensitive_data('<api_key>') { ENV['mapquest_api_key'] }
+    config.filter_sensitive_data('<api_key>') { ENV['openweather_api_key'] }
+    config.configure_rspec_metadata!
+    config.ignore_hosts 'api.openweathermap.org'
+  end
 end
