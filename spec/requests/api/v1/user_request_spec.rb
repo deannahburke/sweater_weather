@@ -34,6 +34,8 @@ RSpec.describe 'create user endpoint' do
 
       user = JSON.parse(response.body, symbolize_names: true)
 
+      expect(response).to be_successful
+      expect(response).to have_http_status(201)
       expect(user).to have_key(:data)
       expect(user[:data]).to have_key(:type)
       expect(user[:data]).to have_key(:id)

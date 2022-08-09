@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe ForecastService do
   describe 'external endpoint' do
     it 'can retrieve current forecast data for a given location' do
-      
+
       mock_data = File.read('spec/fixtures/forecast.json')
       json = JSON.parse(mock_data, symbolize_names: true)
 
