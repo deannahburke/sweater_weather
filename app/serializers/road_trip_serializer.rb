@@ -1,6 +1,5 @@
 class RoadTripSerializer
   def self.format_roadtrip(roadtrip)
-    #require "pry";binding.pry
     {
       data: {
         id: nil,

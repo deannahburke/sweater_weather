@@ -1,18 +1,22 @@
 require 'rails_helper'
 
 RSpec.describe 'create roadtrip endpoint', :vcr do
-  it 'gets successful response from internal api' do
-    post '/api/v1/road_trip'
-
-    expect(response).to be_successful
-  end
-
   context 'happy path' do
     it 'sends formatted road trip data' do
-      post '/api/v1/road_trip'
+      request_params =
+        {
+          origin: "Denver, CO",
+          destination: "Pueblo, CO",
+          api_key: "daed989c0fa9dd11a2b007a2bb74b87d"
+        }
+
+      headers = {"CONTENT_TYPE" => "application/json"}
+
+      post '/api/v1/road_trip', headers: headers, params: JSON.generate(request_params)
 
       roadtrip = JSON.parse(response.body, symbolize_names: true)
 
+      expect(response).to be_successful
       expect(roadtrip).to have_key(:data)
       expect(roadtrip[:data]).to have_key(:id)
       expect(roadtrip[:data][:id]).to eq(nil)
