@@ -5,7 +5,7 @@ class Api::V1::RoadTripController < ApplicationController
     if user.blank? == false
       render json: RoadTripSerializer.format_roadtrip(roadtrip), status: 200
     else
-      render json: { error: "Valid API Key Required " }, status: 401
+      render json: { error: "Valid API Key Required" }, status: 401
     end
   end
 end

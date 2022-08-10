@@ -38,4 +38,29 @@ RSpec.describe 'create roadtrip endpoint', :vcr do
       # expect(roadtrip[:data][:attributes][:weather_at_eta][:conditions]).to be_a(String)
     end
   end
+
+  context 'sad path' do
+    it 'will not create roadtrip without user api key' do
+      request_params =
+        {
+          origin: "Denver, CO",
+          destination: "Pueblo, CO",
+          api_key: ""
+        }
+
+      headers = {"CONTENT_TYPE" => "application/json"}
+
+      post '/api/v1/road_trip', headers: headers, params: JSON.generate(request_params)
+
+      body = JSON.parse(response.body, symbolize_names: true)
+
+      expect(response).to_not be_successful
+      expect(response).to have_http_status(401)
+      expect(body[:error]).to eq("Valid API Key Required")
+      expect(body).to_not have_key(:data)
+      expect(body).to_not have_key(:id)
+      expect(body).to_not have_key(:type)
+      expect(body).to_not have_key(:attributes)
+    end
+  end
 end
